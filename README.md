@@ -5,7 +5,7 @@ K Nearest Neighbors classifier from scratch for image classification using MNIST
 ## Implementation
 No existing class or functions (e.g., sklearn.neighbors.KNeighborsClassifier) have been used.
 
-#### Data Set Used:
+#### Data Set:
 MNIST data set consisting of 60000 examples where each example is a hand written digit. 
 Each example includes 28x28 grey-scale pixel values as features and a categorical class label out of 0-9. 
 
