@@ -25,5 +25,6 @@ This can be altered by changing values of *traning_examples , testing_examples*
 The curve shows training/test error (which is equal to 1.0-accuracy) vs. the value of K. 
 11 points for the curve, using K = 1, 9, 19, 29, 39, 49, 59, 69, 79, 89, 99 have been ploted.
 The error curves for training error and test error have been ploted in the same figure.
+![Result](https://github.com/tarunkolla/KNN-Classifier/blob/master/result.png)
 
 
