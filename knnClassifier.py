@@ -12,8 +12,8 @@ custom_data_home = "./"
 mnist = fetch_mldata('MNIST original', data_home=custom_data_home)
 
 # Variables used to define the number of traning and testing examples from the sample
-traning_examples = 600
-testing_examples = 100
+traning_examples = 6000
+testing_examples = 1000
 total_examples = 60000
 class_labels = 10
 
@@ -108,10 +108,10 @@ def knn_classifier():
     red_box = mpatches.Patch(color='red', label='Test Error')
     green_box = mpatches.Patch(color='green', label='Traning Error')
 
-    plt.legend(handles=[red_box,green_box])
+    plt.legend(handles=[red_box, green_box])
 
     plt.plot(k, testing_error[0], color='red', marker='*')
-    plt.plot(k, traning_error[0], color='g')
+    plt.plot(k, traning_error[0], color='g', marker='*')
     plt.title('knn Classifier')
     plt.show()
 
