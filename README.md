@@ -1,5 +1,5 @@
 # KNN-Classifier
-K Nearest Neighbors classifier from scratch for image classification using MNIST Data Set.
+K Nearest Neighbors classifier from scratch for image classification using MNIST Data Set. [KNN_Classifier](https://github.com/tarunkolla/KNN-Classifier/blob/master/knnClassifier.py)
 
 
 ## Implementation
@@ -26,5 +26,11 @@ The curve shows training/test error (which is equal to 1.0-accuracy) vs. the val
 11 points for the curve, using K = 1, 9, 19, 29, 39, 49, 59, 69, 79, 89, 99 have been ploted.
 The error curves for training error and test error have been ploted in the same figure.
 ![Result](https://github.com/tarunkolla/KNN-Classifier/blob/master/result.png)
+
+
+# Classification with Tensorflow:
+
+Used sequential model with 2 layered neural network with each having 128 neurons on the same dataset. [ImageClassification](https://github.com/tarunkolla/KNN-Classifier/blob/master/imageClassification.py)
+
 
 
